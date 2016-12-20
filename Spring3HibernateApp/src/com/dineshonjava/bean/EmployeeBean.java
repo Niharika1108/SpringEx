@@ -8,6 +8,7 @@ public class EmployeeBean {
 	private Long salary;
 	private String address;
 	
+
 	public Long getSalary() {
 		return salary;
 	}
