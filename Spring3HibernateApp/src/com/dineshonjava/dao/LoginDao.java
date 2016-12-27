@@ -1,7 +1,12 @@
 package com.dineshonjava.dao;
 
-public interface LoginDao {
+
+import com.dineshonjava.model.Login;
+
+public interface LoginDao {	
 	
-	public void Login();
+	//public void loginUsers(Login login);
+	public boolean loginUsers(String username, String password);
+	//public boolean isValidUser(String username, String password); 
 
 }

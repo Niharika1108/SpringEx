@@ -8,10 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import com.dineshonjava.model.Employee;
 
-/**
- * @author Dinesh Rajput
- *
- */
+
 @Repository("employeeDao")
 public class EmployeeDaoImpl implements EmployeeDao {
 

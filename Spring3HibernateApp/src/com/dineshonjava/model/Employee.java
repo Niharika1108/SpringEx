@@ -23,7 +23,7 @@ public class Employee implements Serializable{
 	@Column(name="empname")
 	private String empName;
 	
-	@Column(name="empaddress")
+	@Column(name="address")
 	private String empAddress;
 	
 	@Column(name="salary")

@@ -46,10 +46,7 @@ http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
 		<property name="packagesToScan">
 			<list>
 				<value>com.dineshonjava.model</value>
-				<value>com.dineshonjava.bean</value>
-				<value>com.dineshonjava.controller</value>
-				<value>com.dineshonjava.service</value>
-				<value>com.dineshonjava.dao</value>
+				
 				
 			</list>
 		</property>
